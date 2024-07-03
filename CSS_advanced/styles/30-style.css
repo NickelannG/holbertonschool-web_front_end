@@ -240,7 +240,7 @@ ul.row {
 }
 
 
-.card-work:hover .card-inner .card-work {
+.card-work:hover .card-inner {
     background-color: rgba(0, 0, 0, 0.7);
 }
 
@@ -255,7 +255,7 @@ ul.row {
 .card-work .card-title a {
     display: block;
     text-decoration: none;
-    padding: 45%;
+    padding-top: 45%;
 }
 
 .card-work .card-title a::after {
@@ -263,10 +263,11 @@ ul.row {
     top: 0;
     right: 0;
     left: 0;
+    bottom: 0;
     content: "";
 }
 
-.card-work .card-title:hover {
+.card-work:hover .card-title {
     opacity: 1;
 }
 
